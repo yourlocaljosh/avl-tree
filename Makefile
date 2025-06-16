@@ -17,6 +17,5 @@ $(TARGET): $(OBJ)
 clean:
 	rm -f $(TARGET) $(OBJ)
 
-#For catch2 tests
-test_avl: catch_tests.cpp
-	$(CXX) $(CXXFLAGS) -o catch_tests catch_tests.cpp
+catch_tree: catch_tree.cpp
+	$(CXX) $(CXXFLAGS) -o catch_tree catch_tree.cpp
