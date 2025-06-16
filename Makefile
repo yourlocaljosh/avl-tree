@@ -15,7 +15,7 @@ $(TARGET): $(OBJ)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(TARGET) $(OBJ)
+	rm -f test_tree test_tree.o catch_tree catch_tree.o
 
 catch_tree: catch_tree.cpp
 	$(CXX) $(CXXFLAGS) -o catch_tree catch_tree.cpp
