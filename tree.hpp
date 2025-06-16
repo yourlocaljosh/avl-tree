@@ -111,6 +111,10 @@ class Tree {
         }
 
     public:
+
+        Tree():
+            root(nullptr){}
+            
         void insert(int key){
             root = insert(root, key);
         }

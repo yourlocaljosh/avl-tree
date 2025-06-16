@@ -26,6 +26,7 @@ int main(){
     
     cout << "TEST: FIND 1" << endl;
     cout << "Testing with 25 and 99" << endl;
+    cout << "Expected output: 25 ??" << endl;
     if(avl.find(25)){
         cout << "25" << endl;
     }else{
